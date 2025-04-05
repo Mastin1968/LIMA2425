@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+* {
+    font-size: 20px;
+    font-family: cursive;
+}
+
+body {
+    background-color: #D8C5AA;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    height: auto;
+}
+
+
+div i {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    width: 20%;
+    margin-left: 79%;
+    border: 2px solid black;
+    border-radius: 2em;
+    background-color: #B5ADA4;
+}
+
+div i:hover {
+    background-color: rgb(245, 244, 179);
+}
+
+span {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #915304c4;
+    height: 25px;
+}
+
+span i:hover {
+    background-color: rgb(236, 214, 186)
+}
+
+nav ul li a:hover {
+    background-color: rgb(177, 160, 129);
+    border-radius: 5cap;
+}
+
+#isla {
+    padding-left: 5px;
+    float: inline-end;
+}
+
+.Arbol {
+    float: inline-start;
+}
+
+
+
+table {
+    background-color: rgba(241, 231, 217, 0.471);
+}
+
+
+
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    line-height: 0px;
+    color: #b86506;
+    font-size: 40px;
+
+}
+
+
+/*#inicio_3 {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #463723;
+    color: #B5ADA4;
+    font-size: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    line-height: 60px;
+}
+    */
+
+figcaption {
+    color: #e71414;
+    font-size: 15px;
+}
+
+
+div {
+    margin-top: auto;
+}
+
+nav {
+    height: auto;
+    margin-top: 0px;
+    border: 3px solid hsla(36, 37%, 65%, 0.696);
+    background-color: rgb(145, 113, 53);
+}
+
+#inicio {
+    display: flex;
+    justify-content: space-evenly;
+    font-style: italic;
+    text-align: center;
+    font-size: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b77d3a;
+    background-color: #D8C5AA;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    width: 100%;
+}
+
+nav li {
+    line-height: 50%;
+    display: inline;
+    width: 80px;
+}
+
+nav ul {
+    display: block;
+    text-align: left;
+    line-height: 10px;
+    margin-right: 40px;
+}
+
+nav ul li a {
+    font-weight: bold;
+    border: 2px solid hsla(36, 94%, 28%, 0.696);
+    background-color: #B5ADA4;
+    color: black;
+    font-size: 20px;
+    font-style: italic;
+    padding: 8px;
+    margin-top: 10;
+}

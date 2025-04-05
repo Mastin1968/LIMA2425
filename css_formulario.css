@@ -1,0 +1,50 @@
+* {
+    font-family: cursive;
+}
+
+body {
+    background-color: #D8C5AA;
+    font-style: italic;
+    font-size: 20px;
+}
+
+img {
+    margin-left: 50px;
+}
+
+
+fieldset {
+    width: 280px;
+    border: solid;
+    border-color: #8d806f;
+    border-radius: 3cap;
+    border-width: 5px;
+}
+
+select {
+    background-color: beige;
+}
+
+input {
+    background-color: beige;
+
+}
+
+.submit {
+    display: flexbox;
+    margin-top: 15px;
+    margin-left: 140px;
+}
+
+a {
+    font-family: cursive;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    background-color: #D8C5AA;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}

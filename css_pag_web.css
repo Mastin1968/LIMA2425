@@ -1,0 +1,178 @@
+* {
+    font-size: 20px;
+    font-family: cursive;
+}
+
+body {
+    display: flexbox;
+    max-width: fit-content;
+
+    background-color: #D8C5AA;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(8, 9, 0);
+}
+
+.logo_iogkf {
+    align-self: center;
+}
+
+.letras_iogkf {
+    align-self: center;
+}
+
+
+header .titulo {
+    font-style: italic;
+    text-align: center;
+    font-size: 100px;
+    font-family: Roboto;
+    color: #e9761ec5;
+}
+
+header a {
+    align-self: flex-end;
+    text-decoration: none;
+    font-size: 12px;
+    color: #e9761ec5;
+    z-index: 2;
+
+}
+
+header a:visited {
+    color: #e9761ec5
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+a {
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#Goju-Ryu {
+    margin-top: 0;
+    font-size: 60px;
+
+    color: #b86506;
+}
+
+
+
+
+.art_1 {
+    display: flex;
+}
+
+.art_1 p {
+    width: auto;
+    font-size: 20px;
+}
+
+div video {
+    align-self: start;
+}
+
+
+
+.higa_1 {
+    float: left;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+.higaona {
+    float: right;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+
+
+
+.galeria {
+    text-align: center;
+    font-size: 80px;
+    font-style: italic;
+    font-weight: bolder;
+    color: #f11109c5;
+    background-color: #120b01b3;
+}
+
+.contenedor {
+    box-sizing: border-box;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.contenedor img:hover {
+    border-radius: 5cap;
+}
+
+.contenedor video:hover {
+    border-radius: 5cap;
+}
+
+@media (max-width:1900px) {
+    body {
+        background-color: #a77e5f94;
+    }
+}
+
+@media (max-width:1400px) {
+    body {
+        background-color: #a77e5fb8;
+    }
+}
+
+
+@media (max-width:1900px) {
+    .galeria {
+        background-color: rgb(8, 9, 0);
+        font-size: 100px;
+    }
+
+    .contenedor {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-row: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width:1550px) {
+    .galeria {
+        background-color: rgba(117, 53, 1, 0.257);
+        color: #915304c4;
+    }
+
+    .contenedor {
+        grid-template-columns: 1fr 1fr;
+        grid-row: 1fr 1fr;
+    }
+}
+
+@media (max-width:850px) {
+    .galeria {
+        background-color: rgba(117, 53, 1, 0.058);
+        color: #7a460244;
+        font-size: 120px;
+    }
+
+    .contenedor {
+        grid-template-columns: 1fr;
+        grid-row: 1fr;
+    }
+}
